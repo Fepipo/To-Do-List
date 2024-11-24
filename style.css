@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    font-family: "Lexend";
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li:hover {
+    text-decoration: line-through;
+    text-decoration-thickness: 15%;
+    font-size: 18px;
+}
+
+form {
+    text-align: center;
+    background-color: #191b1e;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.add {
+    border-radius: 10px;
+}
+
+.margin {
+    margin: 7px !important;
+}
